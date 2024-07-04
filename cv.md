@@ -16,7 +16,7 @@ Hi, my name is Karina. My interests are programming. I can attribute to my posit
 - Java
 
 ## _Code Example:_
-
+```
 public class Sum {
 
   public static int arrayPlusArray(int[] arr1, int[] arr2) {
@@ -34,4 +34,4 @@ public class Sum {
   }
 
 }
-
+```
