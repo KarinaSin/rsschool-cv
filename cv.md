@@ -35,3 +35,19 @@ public class Sum {
 
 }
 ```
+## _Experience:_
+2022 - present\
+_Velox Imaging_ QA Engineer
+
+## _Education:_ 
+2014-2018\
+_Yanka Kupala State University_ Economic 
+
+
+## _Languages:_
+- Russian (native)
+- English (А2)
+
+
+## _Hobbies:_
+Traveling, dancing
