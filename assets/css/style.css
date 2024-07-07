@@ -273,6 +273,22 @@ img{
 
 
 
+.sk-disk {
+    list-style: disc; 
+    font-size: var(--normal-font-size);
+    padding: 0 1.5rem;
+}
+.sk-disk li{
+    padding: 1rem 0;
+}
+
+.skills-block {
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+}
+
+
 @media screen and (min-width: 968px) {
     body {
         margin: 3rem 0;
