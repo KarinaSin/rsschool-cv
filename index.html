@@ -143,9 +143,9 @@
               </div>
             </div>
           </section>
-          <section class="section code-exm">
+          <section class="code-exm">
             <h2 class="section-title">Code example</h2>
-            <h3>Task from Codewars</h3>
+            <h3 class="exm-title">Task from Codewars</h3>
             <div class="code">
               <pre>
                         <code class="hljs language-java">
@@ -155,12 +155,12 @@ public class Sum {
         int sum1 = 0;
         for ( int i =0; i &lt; arr1.length; i++)
         {
-        sum1 = sum1 + arr1[i];
+         sum1 = sum1 + arr1[i];
         }
         int sum2 = 0;
         for ( int i =0; i &lt; arr2.length; i++)
         {
-        sum2 = sum2 + arr2[i];
+            sum2 = sum2 + arr2[i];
         }
         return sum1 + sum2;
     }
@@ -206,12 +206,38 @@ public class Sum {
           <section class="section hobby-info">
             <h2 class="section-title">Hobbies</h2>
             <div class="h-info">
-              <div><span>Dancing</span></div>
-
-              <span>Traveling</span>
-              <span>Books</span>
+              <div class="hobies-wrap">
+                <i class="bx bxs-hot hobbies__icon"></i>
+                <span>Dancing</span>
+              </div>
+              <div class="hobies-wrap">
+                <i class="bx bxs-plane hobbies__icon"></i>
+                <span>Traveling</span>
+              </div>
+              <div class="hobies-wrap">
+                <i class="bx bxs-book hobbies__icon"></i>
+                <span>Books</span>
+              </div>
             </div>
           </section>
+          <footer class="footer">
+            <div class="footer-container">
+                <span class="footer-year"></span>
+                <div class="social-block">
+                    <a
+                      href="https://www.linkedin.com/in/karina-sinkevich-31abab23a"
+                      class="social-link"
+                      target="_blank"
+                    >
+                      <i class="bx bxl-linkedin linkedin-icon"></i>
+                      Karina Sinkevich
+                    </a>
+                </div>
+                <a href="https://rs.school/js/" target="_blank" class="footer__link">
+                    <img src="asstes/img/rs_school_logo.svg" class="footer__logo" alt="rs_school_logo">
+                </a>
+            </div>
+          </footer>
         </div>
       </div>
     </main>
