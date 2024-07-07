@@ -288,6 +288,15 @@ img{
     gap: 15rem;
 }
 
+.lang-info {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.h-info {
+    gap: 1.5rem;
+}
 
 @media screen and (min-width: 968px) {
     body {
