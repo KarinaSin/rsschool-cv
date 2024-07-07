@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 :root {
     --body-font: 'Poppins', sans-serif;
     --body-color: #FCFCFC;
@@ -14,62 +15,63 @@
     --h3-font-size: 1rem;
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
-  
-  
+
+
     --font-medium: 500;
     --font-semi-bold: 600;
-  
-  
+
+
     --mb-1: .5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
-  
-   
+
+
     --z-tooltip: 10;
     --z-fixed: 100;
 }
-*, 
-::after, 
+
+*,
+::after,
 ::before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
-  }
+}
 
 h1,
 h2,
 h3,
 p,
-ul{
-  margin: 0;
+ul {
+    margin: 0;
 }
 
 h1,
 h2,
-h3{
-  color: var(--title-color);
-  font-weight: var(--font-medium);
+h3 {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
 }
 
-ul{
-  padding: 0;
-  list-style: none;
+ul {
+    padding: 0;
+    list-style: none;
 }
 
-a{
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
 
-img{
-  max-width: 100%;
-  height: auto;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 pre {
@@ -79,6 +81,7 @@ pre {
 .section {
     padding: 1.5rem 0;
 }
+
 .main-container {
     width: 968px;
     margin: 0 auto;
@@ -87,7 +90,7 @@ pre {
 .main_wrapper {
     display: flex;
     box-shadow: 0 0 8px rgb(13, 12, 12, 0.15);
-    
+
 }
 
 .left-side__container {
@@ -98,6 +101,7 @@ pre {
     flex-basis: 65%;
     padding: 0 1.5rem;
 }
+
 .photo-wrap {
     text-align: center;
 }
@@ -143,10 +147,12 @@ pre {
     align-items: center;
     font-size: var(--small-font-size);
 }
+
 .contacts-icon__wrap {
     display: flex;
     align-items: center;
 }
+
 .contacts-icon {
     font-size: 1.2rem;
     margin-right: 0.3rem;
@@ -155,21 +161,25 @@ pre {
 .section-title {
     margin-bottom: 0.35rem;
 }
+
 .socials-main-info {
     display: flex;
     flex-direction: column;
 
 }
+
 .social-link {
     display: flex;
     align-items: center;
     font-size: var(--small-font-size);
     color: var(--text-color);
-    
+
 }
+
 .social-link:hover {
     color: var(--title-color);
 }
+
 .linkedin-icon {
     font-size: var(--small-font-size);
     margin-right: 0.35rem;
@@ -184,6 +194,7 @@ pre {
 .profile-description {
     padding: 0 0rem;
 }
+
 .qualities {
     list-style: disc;
     padding: 0 1.5rem;
@@ -193,24 +204,29 @@ pre {
     list-style: disc;
     padding: 0 1.5rem;
 }
+
 .education-info-container {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
+
 .education-info {
     display: flex;
 
 }
+
 .education-text {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
+
 .education-forms {
     padding-right: 1rem;
-   
+
 }
+
 .ed-circle {
     position: relative;
     display: block;
@@ -220,6 +236,7 @@ pre {
     border-radius: 50%;
     margin-top: 0.25rem;
 }
+
 .ed-line {
     display: block;
     width: 2px;
@@ -233,52 +250,62 @@ pre {
     color: #707070;
 }
 
- 
+
 .code-exm {
     padding: 1.5rem 0 0 0;
 }
 
 .nav-container {
- margin-top: 1.5rem;   
+    margin-top: 1.5rem;
 }
+
 .nav-wrap {
     display: flex;
     gap: 1.25rem;
     justify-content: flex-end;
 }
+
 .nav-item {
     font-size: var(--h3-font-size);
     transition: 0.3s;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     transform: scale(1.05);
 }
-.nav-item a{
+
+.nav-item a {
     color: var(--title-color);
-    
-}
-.nav-item a:hover{
-    color: var(--text-color);
-   
 
 }
+
+.nav-item a:hover {
+    color: var(--text-color);
+
+
+}
+
 .exp-info-container {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
+
 .exp-info {
     display: flex;
 }
+
 .exp-text {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
+
 .exp-forms {
     padding-right: 1rem;
-   
+
 }
+
 .ex-circle {
     position: relative;
     display: block;
@@ -288,6 +315,7 @@ pre {
     border-radius: 50%;
     margin-top: 0.25rem;
 }
+
 .ex-line {
     display: block;
     width: 2px;
@@ -304,11 +332,12 @@ pre {
 
 
 .sk-disk {
-    list-style: disc; 
+    list-style: disc;
     font-size: var(--normal-font-size);
     padding: 0 1.5rem;
 }
-.sk-disk li{
+
+.sk-disk li {
     padding: 1rem 0;
 }
 
@@ -355,6 +384,7 @@ pre {
     font-size: var(--small-font-size);
     color: var(--text-color);
 }
+
 .gh-link:hover {
     color: var(--title-color);
 }
@@ -367,6 +397,7 @@ pre {
 .footer-logo {
     height: 30px;
 }
+
 @media screen and (min-width: 968px) {
     body {
         margin: 3rem 0;
