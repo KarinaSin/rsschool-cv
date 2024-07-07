@@ -117,7 +117,7 @@ pre {
 }
 
 .left-side__container {
-    background-color: bisque;
+    background-color: #fff2e2;
     padding: 0 1.5rem;
 }
 
@@ -236,6 +236,31 @@ pre {
  
 .code-exm {
     padding: 1.5rem 0 0 0;
+}
+
+.nav-container {
+ margin-top: 1.5rem;   
+}
+.nav-wrap {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: flex-end;
+}
+.nav-item {
+    font-size: var(--h3-font-size);
+    transition: 0.3s;
+}
+.nav-item:hover{
+    transform: scale(1.05);
+}
+.nav-item a{
+    color: var(--title-color);
+    
+}
+.nav-item a:hover{
+    color: var(--text-color);
+   
+
 }
 .exp-info-container {
     display: flex;
