@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    <title>Karyna Sinkevich CV</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="main_wrapper">
+        <div class="left-side__container">
+          <section class="section main-info">
+            <div class="main-info-container">
+              <div class="photo-wrap">
+                <img
+                  class="photo-img"
+                  src="assets/images/photo.jpg"
+                  alt="My photo"
+                />
+              </div>
+              <div class="personal-info-wrap">
+                <h1 class="name-info">
+                  Karina <span class="last-name-info">Sinkevich</span>
+                </h1>
+                <h3 class="prof-info">QA Engineer</h3>
+                <div class="contacts-info">
+                  <div class="contacts-wrap">
+                    <span class="contacts-icon__wrap">
+                      <i class="bx bx-map-pin contacts-icon"></i>
+                    </span>
+                    <div>Poland, Bialystok</div>
+                  </div>
+                  <div class="contacts-wrap">
+                    <span class="contacts-icon__wrap">
+                      <i class="bx bx-mail-send contacts-icon"></i>
+                    </span>
+                    <div>girlkeri9@gmail.com</div>
+                  </div>
+                  <div class="contacts-wrap">
+                    <span class="contacts-icon__wrap">
+                      <i class="bx bx-phone contacts-icon"></i>
+                    </span>
+                    <div>+375-29-557-13-66</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section socails-info">
+            <h2 class="section-title">Socials</h2>
+            <div class="socials-main-info">
+              <div class="social-block">
+                <a
+                  href="https://www.linkedin.com/in/karina-sinkevich-31abab23a"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <i class="bx bxl-linkedin linkedin-icon"></i>
+                  Karina Sinkevich
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="section about-info" id="about">
+            <h2 class="section-title">About me</h2>
+            <div class="about-info-wrap">
+              <p class="profile-description">
+                My name is Karina. My hobby is dancing. My best qualities:
+              </p>
+              <ul class="qualities">
+                <li>Teamwork</li>
+                <li>Desire for new skills</li>
+                <li>Attention to detail</li>
+                <li>Resistance to stress</li>
+                <li>Ability to easily find contact with people</li>
+              </ul>
+            </div>
+          </section>
+          <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-info-container">
+              <div class="education-info">
+                <div class="education-forms">
+                  <span class="ed-circle"></span>
+                  <span class="ed-line"></span>
+                </div>
+                <div class="education-text">
+                  <h3>Economic</h3>
+                  <span>Yanka Kupala State University</span>
+                  <span class="ed-years">2014 - 2018</span>
+                </div>
+              </div>
+              <div class="education-info">
+                <div class="education-forms">
+                  <span class="ed-circle"></span>
+                </div>
+                <div class="education-text">
+                  <h3>Testing</h3>
+                  <span>QA Courses by Vadim Ksendzov</span>
+                  <span class="ed-years">2022</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="right-side__container">
+          <header class="header">
+            <nav class="nav">
+              <div class="nav-container">
+                <ul class="nav-wrap">
+                  <li class="nav-item"><a href="#about">About</a></li>
+                  <li class="nav-item"><a href="#skills">Skills</a></li>
+                  <li class="nav-item"><a href="#education">Education</a></li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+          <section class="section experience-info">
+            <h2 class="section-title">Experience</h2>
+            <div class="exp-info-container">
+              <div class="exp-info">
+                <div class="exp-forms">
+                  <span class="ex-circle"></span>
+                  <span class="ex-line"></span>
+                </div>
+                <div class="exp-text">
+                  <h3>Trainee QA Engineer</h3>
+                  <span>ITX</span>
+                  <span class="ex-years">2022</span>
+                </div>
+              </div>
+              <div class="exp-info">
+                <div class="exp-forms">
+                  <span class="ex-circle"></span>
+                </div>
+                <div class="exp-text">
+                  <h3>QA Engineer</h3>
+                  <span>Velox Images</span>
+                  <span class="ex-years">2022 - present</span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="code-exm">
+            <h2 class="section-title">Code example</h2>
+            <h3 class="exm-title">Task from Codewars</h3>
+            <div class="code">
+              <pre>
+                        <code class="hljs language-java">
+public class Sum {
+
+    public static int arrayPlusArray(int[] arr1, int[] arr2) {
+        int sum1 = 0;
+        for ( int i =0; i &lt; arr1.length; i++)
+        {
+         sum1 = sum1 + arr1[i];
+        }
+        int sum2 = 0;
+        for ( int i =0; i &lt; arr2.length; i++)
+        {
+            sum2 = sum2 + arr2[i];
+        }
+        return sum1 + sum2;
+    }
+    
+}
+                        </code>
+                    </pre>
+            </div>
+          </section>
+          <section id="skills" class="section skills-info">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-block">
+              <div class="scills-one">
+                <ul class="sk-disk">
+                  <li>Postman</li>
+                  <li>SQL</li>
+                  <li>DevTools</li>
+                </ul>
+              </div>
+              <div class="skills-two">
+                <ul class="sk-disk">
+                  <li>Java</li>
+                  <li>Testing</li>
+                  <li>Swagger</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="section language-info">
+            <h2 class="section-title">Languages</h2>
+            <div class="lang-info">
+              <ul class="sk-disk">
+                <li>Russian (native)</li>
+              </ul>
+              <ul class="sk-disk">
+                <li>English (A2)</li>
+              </ul>
+              <ul class="sk-disk">
+                <li>Polish (A2)</li>
+              </ul>
+            </div>
+          </section>
+          <section class="section hobby-info">
+            <h2 class="section-title">Hobbies</h2>
+            <div class="h-info">
+              <div class="hobies-wrap">
+                <i class="bx bxs-hot hobbies__icon"></i>
+                <span>Dancing</span>
+              </div>
+              <div class="hobies-wrap">
+                <i class="bx bxs-plane hobbies__icon"></i>
+                <span>Traveling</span>
+              </div>
+              <div class="hobies-wrap">
+                <i class="bx bxs-book hobbies__icon"></i>
+                <span>Books</span>
+              </div>
+            </div>
+          </section>
+          <footer class="footer">
+            <div class="footer-container">
+              <span class="footer-year">2024</span>
+              <div class="gh-block">
+                <a
+                  href="https://github.com/KarinaSin"
+                  class="gh-link"
+                  target="_blank"
+                >
+                  <i class="bx bxl-github footer-icon"></i>
+                  Karina Sinkevich
+                </a>
+              </div>
+              <a
+                href="https://rs.school/courses/javascript-ru"
+                target="_blank"
+                class="footer-link"
+              >
+                <img
+                  src="assets/images/rs_school_logo.svg"
+                  class="footer-logo"
+                  alt="rs_school_logo"
+                />
+              </a>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
