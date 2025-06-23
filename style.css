@@ -90,7 +90,7 @@ img {
 
 .title-h3 {
   border: 2px solid var(--background-color);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 30px;
   font-weight: 600;
@@ -167,4 +167,12 @@ img {
   }
 }
 
+.languages {
+  margin-bottom: 20px;
+}
 
+.languages__data {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
