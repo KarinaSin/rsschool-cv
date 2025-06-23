@@ -124,11 +124,14 @@ img {
 
 .education__item,
 .experience__item {
-  padding-left: 20px;
   display: flex;
   flex-direction: column;
   gap: 5px;
   border-bottom: 1px solid var(--background-color);
+}
+
+.education__item-name, .experience__item-name {
+  padding-left: 20px;
 }
 
 .education__item-years,
