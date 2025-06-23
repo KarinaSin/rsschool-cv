@@ -85,3 +85,59 @@ img {
   color: var(--text-gray-color);
 }
 
+.contacts {
+  margin-bottom: 20px;
+}
+
+.title-h3 {
+  border: 2px solid var(--background-color);
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.contacts__item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: var(--text-gray-color);
+  }
+}
+
+.about-me {
+  margin-bottom: 20px;
+}
+
+.education {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title-h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-gray-color);
+}
+
+.education__item, .experience__item {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 1px solid var(--background-color);
+}
+
+.item__years {
+  text-align: right;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
