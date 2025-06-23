@@ -55,3 +55,10 @@ Udemy Web-developer
 Ceramic Soul – front-end training project  
 [GitHub](https://github.com/KarinaSin/Ceramic_soul "Project: Ceramic Soul") 
 
+---
+
+### **Languages:**  
+* English - A2 (Elementary)
+* Polish - A2 (Elementary)
+* Russian - Native
+
