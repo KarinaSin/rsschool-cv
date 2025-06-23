@@ -47,7 +47,6 @@ img {
 .columns {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  border-bottom: 2px solid var(--background-color);
   gap: 30px;
 }
 
@@ -137,6 +136,23 @@ img {
   text-align: right;
 }
 
+.navigation__data {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: var(--text-gray-color);
+  }
+}
+
+.navigation__item:hover {
+  a {
+  color: #000;
+}
+}
+
 .experience {
   margin-bottom: 20px;
   display: flex;
@@ -209,7 +225,7 @@ footer {
 }
 .footer__img {
   width: 100px;
-  height: 100px;
+  height: 70px;
 }
 
 .footer__icon {
