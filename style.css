@@ -99,10 +99,10 @@ img {
   display: flex;
   gap: 5px;
   align-items: center;
-  a {
-    text-decoration: none;
+}
+.contacts__item a {
+  text-decoration: none;
     color: var(--text-gray-color);
-  }
 }
 
 .about-me {
@@ -141,16 +141,16 @@ img {
   justify-content: flex-end;
   gap: 10px;
   list-style: none;
-  a {
-    text-decoration: none;
-    color: var(--text-gray-color);
-  }
 }
 
-.navigation__item:hover {
-  a {
-  color: #000;
+.navigation__data a {
+  text-decoration: none;
+  color: var(--text-gray-color);
 }
+
+.navigation__item:hover a {
+  
+  color: #000;
 }
 
 .experience {
@@ -176,10 +176,11 @@ img {
 
 .code-example {
   margin-bottom: 20px;
-  p {
-    margin-bottom: 20px;
-    color: var(--text-gray-color);
-  }
+}
+
+.code-examle p {
+  margin-bottom: 20px;
+  color: var(--text-gray-color);
 }
 
 .languages {
@@ -213,11 +214,13 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  a {
-    text-decoration: none;
-    color: #000;
-  }
 }
+
+.footer a {
+  text-decoration: none;
+  color: #000;
+}
+
 .footer__contact {
   display: flex;
   align-items:center;
