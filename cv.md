@@ -1,5 +1,5 @@
 # **Karyna Sinkevich**  
-
+![foto](/rsschool-cv/img/photo_2025-05-26_15-54-15.png "Foto")
 ## **Junior Frontend Developer**
 
 ### **Contact information:**
