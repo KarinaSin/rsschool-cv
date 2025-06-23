@@ -1,4 +1,4 @@
-# **Karyna Sinkevich**  
+# **Karina Sinkevich**  
 ![foto](/rsschool-cv/img/my_foto.png "Foto")
 ## **Junior Frontend Developer**
 
