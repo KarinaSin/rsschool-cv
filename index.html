@@ -10,11 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
   </head>
   <body>
     <div class="container">
@@ -59,52 +62,85 @@
             </section>
             <section class="about-me">
               <h3 class="title-h3">About me</h3>
-              <div class="about-me__text">I am currently a manual tester, but I am actively learning front-end development. I am a strong team player, detail-oriented, and capable of handling multiple tasks at once. <br> I work remotely and am passionate about becoming a developer. I'm always eager to learn and grow in this exciting field!</div>
+              <div class="about-me__text">
+                I am currently a manual tester, but I am actively learning
+                front-end development. I am a strong team player,
+                detail-oriented, and capable of handling multiple tasks at once.
+                <br />
+                I work remotely and am passionate about becoming a developer.
+                I'm always eager to learn and grow in this exciting field!
+              </div>
             </section>
             <section class="education">
-                <h3 class="title-h3">Education</h3>
-                <div class="education__item">
-                    <h4 class="title-h4">Economic</h4>
-                    <div class="item__name">Yanka Kupala State University
-                    </div>
-                    <div class="item__years">2014-2018</div>
-                </div>
-                <div class="education__item">
-                    <h4 class="title-h4">Testing</h4>
-                    <div class="item__name">QA Courses by Vadim Ksendzov
-                    </div>
-                    <div class="item__years">2022</div>
-                </div>
-                <div class="education__item">
-                    <h4 class="title-h4">Web-developer</h4>
-                    <div class="item__name">Udemy</div>
-                    <div class="item__years">2025</div>
-                </div>
+              <h3 class="title-h3">Education</h3>
+              <div class="education__item">
+                <h4 class="title-h4">Economic</h4>
+                <div class="item__name">Yanka Kupala State University</div>
+                <div class="item__years">2014-2018</div>
+              </div>
+              <div class="education__item">
+                <h4 class="title-h4">Testing</h4>
+                <div class="item__name">QA Courses by Vadim Ksendzov</div>
+                <div class="item__years">2022</div>
+              </div>
+              <div class="education__item">
+                <h4 class="title-h4">Web-developer</h4>
+                <div class="item__name">Udemy</div>
+                <div class="item__years">2025</div>
+              </div>
             </section>
           </main>
         </div>
         <div class="column__right">
-            <section class="experience">
-                <h3 class="title-h3">Experience</h3>
-                <div class="experience__item">
-                    <h4 class="title-h4">Trainee QA Engineer
-                    </h4>
-                    <div class="item__name">ITX
-                    </div>
-                    <div class="item__years">2022</div>
-                </div>
-                <div class="experience__item">
-                    <h4 class="title-h4">QA Engineer
-                    </h4>
-                    <div class="item__name">Velox Imaging
-                    </div>
-                    <div class="item__years">2022 - present</div>
-                </div>
-            </section>
-            <section class="skills"></section>
-            <section class="code-example"></section>
-            <section class="languages"></section>
-            <section class="hobbies"></section>
+          <section class="experience">
+            <h3 class="title-h3">Experience</h3>
+            <div class="experience__item">
+              <h4 class="title-h4">Trainee QA Engineer</h4>
+              <div class="item__name">ITX</div>
+              <div class="item__years">2022</div>
+            </div>
+            <div class="experience__item">
+              <h4 class="title-h4">QA Engineer</h4>
+              <div class="item__name">Velox Imaging</div>
+              <div class="item__years">2022 - present</div>
+            </div>
+          </section>
+          <section class="skills">
+            <h3 class="title-h3">Skills</h3>
+            <div class="skills__wrapper">
+              <ul class="skills__data">
+                <li>HTML5</li>
+                <li>CSS3 (SASS)</li>
+                <li>JavaScript (Basic)</li>
+              </ul>
+              <ul class="skills__data">
+                <li>DevTools</li>
+                <li>SQL</li>
+                <li>Git, GitHub</li>
+              </ul>
+            </div>
+          </section>
+          <section class="code-example">
+            <h3 class="title-h3">Code example</h3>
+            <p>Task from the <strong>Project</strong></p>
+            <pre><code class="language-javascript">
+  const tabs = document.querySelectorAll(".catalog__tab");
+  const contents = document.querySelectorAll(".catalog__content-item");
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((t) => t.classList.remove("catalog__tab_active"));
+      contents.forEach((c) => (c.style.display = "none"));
+      tab.classList.add("catalog__tab_active");
+      contents[index].style.display = "flex";
+    });
+  });
+
+  contents.forEach((c, i) => (c.style.display = i === 0 ? "flex" : "none"));
+            </code></pre>
+          
+          </section>
+          <section class="languages"></section>
+          <section class="hobbies"></section>
         </div>
       </div>
     </div>
