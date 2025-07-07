@@ -27,7 +27,7 @@
         <div class="column__left">
           <header class="header">
             <img
-              src="/rsschool-cv/assets/img/my-foto.jpg"
+              src="assets/img/my-foto.jpg"
               alt="My foto"
               class="header__img">
             <h1 class="header__h1">Karina Sinkevich</h1>
@@ -67,7 +67,7 @@
                 I am currently a manual tester, but I am actively learning
                 front-end development. I am a strong team player,
                 detail-oriented, and capable of handling multiple tasks at once.
-                <br />
+                <br>
                 I work remotely and am passionate about becoming a developer.
                 I'm always eager to learn and grow in this exciting field!
               </div>
@@ -140,17 +140,17 @@
             <pre><code class="language-javascript">
   const tabs = document.querySelectorAll(".catalog__tab");
   const contents = document.querySelectorAll(".catalog__content-item");
-  tabs.forEach((tab, index) => {
-    tab.addEventListener("click", () => {
-      tabs.forEach((t) => t.classList.remove("catalog__tab_active"));
-      contents.forEach((c) => (c.style.display = "none"));
+  tabs.forEach((tab, index) =&gt; {
+    tab.addEventListener("click", () =&gt; {
+      tabs.forEach((t) =&gt; t.classList.remove("catalog__tab_active"));
+      contents.forEach((c) =&gt; (c.style.display = "none"));
       tab.classList.add("catalog__tab_active");
       contents[index].style.display = "flex";
     });
   });
 
-  contents.forEach((c, i) => (c.style.display = i === 0 ? "flex" : "none"));
-            </code></pre>
+  contents.forEach((c, i) =&gt; (c.style.display = i === 0 ? "flex" : "none"));
+</code></pre>
             <div class="code-example__project">
               <i class="bx bxl-github social__icon code-example__icon"></i>
               <a href="">Ceramic Soul – Front-End Training Project on GitHub</a>
@@ -196,9 +196,9 @@
           <div class="footer__text">2025</div>
           <a href="https://rs.school/courses/javascript-ru">
             <img
-              src="/rsschool-cv/assets/img/rs-school-logo.svg"
+              src="assets/img/rs-school-logo.svg"
               alt="Rsschool icon"
-              class="footer__img">
+              class="footer__img"/>
           </a>
         </div>
       </footer>
