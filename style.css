@@ -4,6 +4,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: "Cabin", sans-serif;
 }
 
@@ -71,7 +72,7 @@ img {
   font-weight: 600;
 }
 
-.header__h2 {
+.header__text {
   margin-bottom: 20px;
 }
 
@@ -87,7 +88,7 @@ img {
   margin-bottom: 20px;
 }
 
-.title-h3 {
+.title-h2 {
   border: 2px solid var(--background-color);
   margin-bottom: 10px;
   text-align: center;
@@ -95,14 +96,22 @@ img {
   font-weight: 600;
 }
 
-.contacts__item {
+.contacts__items {
+  padding: 0;
   display: flex;
+  flex-direction: column;
   gap: 5px;
-  align-items: center;
+  align-items: start;
+  list-style: none;
 }
 .contacts__item a {
   text-decoration: none;
-    color: var(--text-gray-color);
+  color: #000;
+}
+
+.contacts__item:hover,
+.contacts__item a:hover {
+  color: var(--text-gray-color);
 }
 
 .about-me {
@@ -130,7 +139,8 @@ img {
   border-bottom: 1px solid var(--background-color);
 }
 
-.education__item-name, .experience__item-name {
+.education__item-name,
+.experience__item-name {
   padding-left: 20px;
 }
 
@@ -152,7 +162,6 @@ img {
 }
 
 .navigation__item:hover a {
-  
   color: #000;
 }
 
@@ -190,6 +199,11 @@ img {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.code-example__project:hover,
+.code-example__project a:hover {
+  color: var(--text-gray-color);
 }
 
 .code-example__project a {
@@ -242,7 +256,7 @@ footer a {
 
 .footer__contact {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 5px;
 }
 .footer__img {
