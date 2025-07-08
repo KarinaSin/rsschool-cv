@@ -1,11 +1,11 @@
-# **Karina Sinkevich**  
-![foto](/rsschool-cv/img/my_foto.png "Foto")
+# **Karina Sinkevich**
+![foto](/assets/img/my_foto.png "Foto")
 ## **Junior Frontend Developer**
 
 ### **Contact information:**
-**Phone:** +48 507 668 749  
-**E-mail:** girlkeri9@gmail.com  
-**Discord:** @KarinaSin  
+**Phone:** +48 507 668 749
+**E-mail:** girlkeri9@gmail.com
+**Discord:** @KarinaSin
 
 ---
 ### **About Myself:**
@@ -17,16 +17,16 @@ In my free time, I enjoy dancing — it’s my favorite hobby.
 
 ---
 
-### **Skills:**  
-* HTML5  
-* CSS/SASS  
-* JavaScript (Basic)  
-* Git, GitHub  
-* VS Code  
+### **Skills:**
+* HTML5
+* CSS/SASS
+* JavaScript (Basic)
+* Git, GitHub
+* VS Code
 
 ---
 
-### **Code example:**  
+### **Code example:**
 ```
 const tabs = document.querySelectorAll(".catalog__tab");
   const contents = document.querySelectorAll(".catalog__content-item");
@@ -44,19 +44,19 @@ const tabs = document.querySelectorAll(".catalog__tab");
 ---
 
 ### **Courses:**
-Udemy Web-developer  
+Udemy Web-developer
 
-![certificate](/rsschool-cv/img/sertif_FD.png "certificate")
-
----
-
-### **Experience:**  
-Ceramic Soul – front-end training project  
-[GitHub](https://github.com/KarinaSin/Ceramic_soul "Project: Ceramic Soul") 
+![certificate](assets/img/sertif_FD.png "certificate")
 
 ---
 
-### **Languages:**  
+### **Experience:**
+Ceramic Soul – front-end training project
+[GitHub](https://github.com/KarinaSin/Ceramic_soul "Project: Ceramic Soul")
+
+---
+
+### **Languages:**
 * English - A2 (Elementary)
 * Polish - A2 (Elementary)
 * Russian - Native
