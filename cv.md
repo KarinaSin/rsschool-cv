@@ -1,5 +1,5 @@
 # **Karina Sinkevich**
-![foto](/assets/img/my_foto.png "Foto")
+![foto](assets/img/my-foto.jpg "Foto")
 ## **Junior Frontend Developer**
 
 ### **Contact information:**
